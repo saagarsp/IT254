@@ -1,0 +1,4 @@
+>Image placeholders for movies
+>Ratings below with a link to the IMDB page
+>Button/Link to take to another page where user can enter Ratings
+>Signup/Signin 
