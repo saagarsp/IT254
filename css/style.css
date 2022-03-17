@@ -1,10 +1,12 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(87, 38, 38);
+  color: #f2f2f2;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .topnav {
-  background-color: #333;
+  background-color: rgb(3, 2, 2);
   overflow: hidden;
   margin: 0%;
 }
@@ -21,13 +23,13 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(228, 149, 149);
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: rgb(153, 17, 17);
   color: white;
 }
 
@@ -42,7 +44,7 @@ body {
         overflow: hidden;
       }
 .image-container {
-        width: 2500px;
+        width: 5500px;
         background-color: pink;
         height: 700px;
         clear: both;
@@ -73,6 +75,21 @@ body {
       #slide-5:target ~ .image-container {
         left: -2000px;
       }
+      #slide-6:target ~ .image-container {
+        left: -2500px;
+      }
+      #slide-7:target ~ .image-container {
+        left: -3000px;
+      }
+      #slide-8:target ~ .image-container {
+        left: -3500px;
+      }
+      #slide-9:target ~ .image-container {
+        left: -4000px;
+      }
+      #slide-10:target ~ .image-container {
+        left: -4500px;
+      }
 .buttons {
         position: relative;
         top: -20px;
@@ -82,8 +99,14 @@ body {
         height: 15px;
         width: 15px;
         border-radius: 50px;
-        background-color: lightgreen;
+        background-color: rgb(226, 25, 25);
       }
+#nonHeader{
+  margin: 5%;
+}
+h1.big{
+  font-size:250%;
+}
 Form {
         text-align: center;
         background-color: rgb(165, 228, 228);
