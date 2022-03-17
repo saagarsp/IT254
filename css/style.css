@@ -33,6 +33,18 @@ body {
   color: white;
 }
 
+#nonHeader{
+  margin: 5%;
+}
+h1.big{
+  font-size:250%;
+}
+/* 
+#logo{
+  height:5%;
+  width: 5%;
+} */
+
 .slider {
         width: 500px;
         height: 700px;
@@ -101,12 +113,6 @@ body {
         border-radius: 50px;
         background-color: rgb(226, 25, 25);
       }
-#nonHeader{
-  margin: 5%;
-}
-h1.big{
-  font-size:250%;
-}
 Form {
         text-align: center;
         background-color: rgb(165, 228, 228);
