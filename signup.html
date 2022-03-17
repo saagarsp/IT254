@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movienator Sign up / Sign in</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/signvalidator.js"></script>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a class="active" href="#home" style="float: left;">Home</a>
+            <a href="#logout">Logout</a>
+            <a href="#login">Login</a>
+            <a href="#signup">Sign Up</a>
+            <p>hello</p>
+        </div>
+    </header>
+
+    <form style="opacity:initial;" name="contactForm" onsubmit="return validateForm()">
+        <h2> Enter the following info to sign up</h2>
+        <br>
+        <div class="row">
+            <label> Username</label>
+            <input type="text" name="name">
+            <div class="error" id="nameErr"></div>
+        </div>
+        <br>
+        <div class="row">
+            <label> Email ID</label>
+            <input type="text" name="email">
+            <div class="error" id="emailErr"></div>
+        </div>
+        <br>
+        <div class="row">
+            <label> Password</label>
+            <input type="text" name="password">
+            <div class="error" id="pwdErr"></div>
+        </div>
+        <br>
+        <div class="row">
+            <input type="submit" value="Sign Up">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+</body>
+</html>

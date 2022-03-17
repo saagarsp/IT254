@@ -84,3 +84,10 @@ body {
         border-radius: 50px;
         background-color: lightgreen;
       }
+Form {
+        text-align: center;
+        background-color: rgb(165, 228, 228);
+        margin-left: 35%;
+        width: fit-content;
+        padding: 10px;
+}
